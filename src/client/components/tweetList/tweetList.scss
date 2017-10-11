@@ -1,0 +1,25 @@
+.tweet-list-container {
+  text-align: center;
+}
+
+.tweet-wrapper {
+  display: inline-block;
+  overflow:hidden;
+  position: relative;
+}
+
+.open-in-new-tab-link {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background: #ddd;
+  border: 1px solid #ddd;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  color: #666;
+  padding: 5px 10px;
+}
